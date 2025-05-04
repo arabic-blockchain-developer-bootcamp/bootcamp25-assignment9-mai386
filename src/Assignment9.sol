@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 // import Openzeppelin Ownable contract
-
+import "@openzeppelin/contracts/access/Ownable.sol";
 // inherit from Ownable contract 
 contract Assignment9 is Ownable{
     // create a public array called `deployedContracts` to store contracts addresses in it 
